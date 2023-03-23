@@ -1,0 +1,70 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+
+}
+
+/* Header styles */
+h1 {
+ background-color: #b30000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 30px;
+  padding: 40px;
+}
+
+/* Social media links styles */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e6e6e6;
+  color: #000;
+  text-align: center;
+  line-height: 50px;
+  transition: background-color 0.3s ease;
+  margin: 120px;
+}
+
+a:hover {
+  background-color: #666;
+}
+
+/* Color styles */
+a.facebook {
+  background-color: #3b5998;
+}
+
+a.twitter {
+  background-color: #00aced;
+}
+
+a.instagram {
+  background-color: #517fa4;
+}
+
+a.linkedin {
+  background-color: #0077b5;
+}
